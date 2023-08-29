@@ -1,0 +1,332 @@
+[
+    {
+        "id": 30,
+        "date": "2023-08-28T16:20:26",
+        "date_gmt": "2023-08-28T16:20:26",
+        "guid": {
+            "rendered": "https:\/\/10upblog.instawp.xyz\/beautiful-nature\/"
+        },
+        "modified": "2023-08-28T16:21:34",
+        "modified_gmt": "2023-08-28T16:21:34",
+        "slug": "beautiful-nature",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/10upblog.instawp.xyz\/beautiful-nature\/",
+        "title": {
+            "rendered": "Roads to Nature"
+        },
+        "content": {
+            "rendered": "<p>Streamline. First-order optimal strategies big data golden goose, and digitalize are we in agreeance, but it&#8217;s not hard guys let&#8217;s circle back to that. The closest elephant is the most dangerous identify pain points, so make it look like digital. Ensure to follow requirements when developing solutions digitalize.<\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Streamline. First-order optimal strategies big data golden goose, and digitalize are we in agreeance, but it&#8217;s not hard guys let&#8217;s circle back to that. The closest elephant is the most dangerous identify pain points, so make it look like digital. Ensure to follow requirements when developing solutions digitalize.<\/p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 29,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "footnotes": ""
+        },
+        "categories": [
+            1
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts\/30"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/users\/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/comments?post=30"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts\/30\/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 31,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts\/30\/revisions\/31"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/media\/29"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/media?parent=30"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories?post=30"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/tags?post=30"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 14,
+        "date": "2023-08-28T15:48:28",
+        "date_gmt": "2023-08-28T15:48:28",
+        "guid": {
+            "rendered": "https:\/\/10upblog.instawp.xyz\/?p=14"
+        },
+        "modified": "2023-08-28T15:53:13",
+        "modified_gmt": "2023-08-28T15:53:13",
+        "slug": "this-is-3rd-blog",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/10upblog.instawp.xyz\/this-is-3rd-blog\/",
+        "title": {
+            "rendered": "Butter Fly"
+        },
+        "content": {
+            "rendered": "<p>Hammer out sea change get six alpha pups in here for a focus group. Prepare yourself to swim with the sharks high touch client, yet nobody&#8217;s fault it could have been managed better let me know if you need me to crack any skulls, nor up the flagpole bazooka that run it past the boss jump right in and banzai attack will they won&#8217;t they its all greek to me unless they bother until the end of time maybe vis a vis too many cooks over the line, for we should leverage existing asserts that ladder up to the message. Product launch the last person we talked to said this would be ready we don&#8217;t need to boil the ocean here, but thought shower, nor quantity. Finance not enough bandwidth, but 60% to 30% is a lot of persent if you want to motivate these clowns, try less carrot and more stick are there any leftovers in the kitchen?. Introduccion we have to leverage up the messaging peel the onion, nor face time, or UX, for future-proof, so we need to make the new version clean and sexy.\u00a0<\/p>\n\n\n<p><\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Hammer out sea change get six alpha pups in here for a focus group. Prepare yourself to swim with the sharks high touch client, yet nobody&#8217;s fault it could have been managed better let me know if you need me to crack any skulls, nor up the flagpole bazooka that run it past the boss [&hellip;]<\/p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 17,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "footnotes": ""
+        },
+        "categories": [
+            1
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts\/14"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/users\/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/comments?post=14"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 3,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts\/14\/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 20,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts\/14\/revisions\/20"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/media\/17"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/media?parent=14"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories?post=14"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/tags?post=14"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 15,
+        "date": "2023-08-28T14:53:40",
+        "date_gmt": "2023-08-28T14:53:40",
+        "guid": {
+            "rendered": "https:\/\/10upblog.instawp.xyz\/this-is-4th-blog-with-publish\/"
+        },
+        "modified": "2023-08-28T15:53:48",
+        "modified_gmt": "2023-08-28T15:53:48",
+        "slug": "this-is-4th-blog-with-publish",
+        "status": "publish",
+        "type": "post",
+        "link": "https:\/\/10upblog.instawp.xyz\/this-is-4th-blog-with-publish\/",
+        "title": {
+            "rendered": "Nature at its best"
+        },
+        "content": {
+            "rendered": "<p>Let&#8217;s unpack that later today shall be a cloudy day, thanks to blue sky thinking, we can now deploy our new ui to the cloud , nor this vendor is incompetent , for copy and paste from stack overflow. Run it up the flag pole we need a paradigm shift my capacity is full we need to button up our approach, but products need full resourcing and support from a cross-functional team in order to be built, maintained, and evolved, game plan.<\/p>\n",
+            "protected": false
+        },
+        "excerpt": {
+            "rendered": "<p>Let&#8217;s unpack that later today shall be a cloudy day, thanks to blue sky thinking, we can now deploy our new ui to the cloud , nor this vendor is incompetent , for copy and paste from stack overflow. Run it up the flag pole we need a paradigm shift my capacity is full we [&hellip;]<\/p>\n",
+            "protected": false
+        },
+        "author": 2,
+        "featured_media": 13,
+        "comment_status": "open",
+        "ping_status": "open",
+        "sticky": false,
+        "template": "",
+        "format": "standard",
+        "meta": {
+            "footnotes": ""
+        },
+        "categories": [
+            1
+        ],
+        "tags": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts\/15"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/types\/post"
+                }
+            ],
+            "author": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/users\/2"
+                }
+            ],
+            "replies": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/comments?post=15"
+                }
+            ],
+            "version-history": [
+                {
+                    "count": 1,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts\/15\/revisions"
+                }
+            ],
+            "predecessor-version": [
+                {
+                    "id": 21,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts\/15\/revisions\/21"
+                }
+            ],
+            "wp:featuredmedia": [
+                {
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/media\/13"
+                }
+            ],
+            "wp:attachment": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/media?parent=15"
+                }
+            ],
+            "wp:term": [
+                {
+                    "taxonomy": "category",
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories?post=15"
+                },
+                {
+                    "taxonomy": "post_tag",
+                    "embeddable": true,
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/tags?post=15"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

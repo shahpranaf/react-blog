@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "count": 5,
+        "description": "",
+        "link": "https:\/\/10upblog.instawp.xyz\/category\/base\/",
+        "name": "Base",
+        "slug": "base",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories\/1"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts?categories=1"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 5,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/10upblog.instawp.xyz\/category\/fiction\/",
+        "name": "Fiction",
+        "slug": "fiction",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories\/5"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts?categories=5"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 6,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/10upblog.instawp.xyz\/category\/horror\/",
+        "name": "Horror",
+        "slug": "horror",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories\/6"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts?categories=6"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/10upblog.instawp.xyz\/category\/nature\/",
+        "name": "Nature",
+        "slug": "nature",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories\/3"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts?categories=3"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "count": 0,
+        "description": "",
+        "link": "https:\/\/10upblog.instawp.xyz\/category\/science\/",
+        "name": "Science",
+        "slug": "science",
+        "taxonomy": "category",
+        "parent": 0,
+        "meta": [],
+        "_links": {
+            "self": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories\/4"
+                }
+            ],
+            "collection": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories"
+                }
+            ],
+            "about": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/taxonomies\/category"
+                }
+            ],
+            "wp:post_type": [
+                {
+                    "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts?categories=4"
+                }
+            ],
+            "curies": [
+                {
+                    "name": "wp",
+                    "href": "https:\/\/api.w.org\/{rel}",
+                    "templated": true
+                }
+            ]
+        }
+    }
+]

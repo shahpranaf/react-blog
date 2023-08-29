@@ -1,9 +1,45 @@
 import * as React from "react";
-import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, useLocation, useNavigate } from "react-router-dom";
+
+import { toast } from 'react-toastify';
+import Loader from 'react-fullpage-custom-loader';
+
+import { useFetchCurrentUserQuery, useLogoutUserMutation } from "../../store/apis/authApi";
+import { URL_SEGMENT } from "../../utils/constant";
+
 import "./topbar.css";
 
-function Topbar() {
-  const user = true;
+function Topbar({ userToken }) {
+  let { data: currentUser, isLoading, isError, refetch } = useFetchCurrentUserQuery();
+  const [logoutUser] = useLogoutUserMutation();
+
+  const location = useLocation();
+  const navigate = useNavigate();
+  const isLoginPage = location?.pathname === `/${URL_SEGMENT.LOGIN}` 
+
+  useEffect(() => {
+    const fetchApi = async () => {
+      await refetch();
+    }
+    fetchApi();
+  }, [userToken, refetch])
+
+  if (!isLoading && isError) {
+    currentUser = null;
+  }
+
+  if (isLoading) {
+    return <Loader sentences={[]} />;
+  }
+
+
+  const handleLogout = async () => {
+    await logoutUser(currentUser?.id)
+    navigate(URL_SEGMENT.LOGIN);
+    toast.success("You have been logged out successfully");
+  }
+
   return (
     <div className="top">
       <div className="topLeft">
@@ -19,34 +55,50 @@ function Topbar() {
               HOME
             </Link>
           </li>
-          <li className="topListItem">ABOUT</li>
-          <li className="topListItem">CONTACT</li>
           <li className="topListItem">
-            <Link className="link" to="/write">
+            <Link className="link" to="#">
+              ABOUT
+            </Link>
+          </li>
+          <li className="topListItem">
+            <Link className="link" to="#">
+              CONTACT
+            </Link>
+          </li>
+          <li className="topListItem">
+            <Link className="link" to={`/${URL_SEGMENT.WRITE}`}>
               WRITE
             </Link>
           </li>
-          {user && <li className="topListItem">LOGOUT</li>}
+          {currentUser 
+            && 
+            <li className="topListItem" onClick={handleLogout}>
+              <Link className="link" to="#">
+                LOGOUT
+              </Link>
+            </li>
+          }
         </ul>
       </div>
       <div className="topRight">
-        {user ? (
-          <Link className="link" to="/settings">
+        {currentUser ? (
+          <Link className="link" to={`/${URL_SEGMENT.SETTINGS}`}>
             <img
               className="topImg"
-              src="https://images.pexels.com/photos/1858175/pexels-photo-1858175.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+              src={currentUser?.avatar_urls["96"]}
               alt=""
             />
           </Link>
         ) : (
           <ul className="topList">
-            <li className="topListItem">
-              <Link className="link" to="/login">
+            {!isLoginPage && <li className="topListItem">
+              <Link className="link" to={`/${URL_SEGMENT.LOGIN}`}>
                 LOGIN
               </Link>
             </li>
+            }
             <li className="topListItem">
-              <Link className="link" to="/register">
+              <Link className="link" to={`/${URL_SEGMENT.REGISTER}`}>
                 REGISTER
               </Link>
             </li>

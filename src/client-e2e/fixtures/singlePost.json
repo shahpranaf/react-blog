@@ -1,0 +1,110 @@
+{
+    "id": 100,
+    "date": "2023-08-28T16:20:26",
+    "date_gmt": "2023-08-28T16:20:26",
+    "guid": {
+        "rendered": "https:\/\/10upblog.instawp.xyz\/beautiful-nature\/"
+    },
+    "modified": "2023-08-28T16:21:34",
+    "modified_gmt": "2023-08-28T16:21:34",
+    "slug": "beautiful-nature",
+    "status": "publish",
+    "type": "post",
+    "link": "https:\/\/10upblog.instawp.xyz\/beautiful-nature\/",
+    "title": {
+        "rendered": "Playwright Test Title"
+    },
+    "content": {
+        "rendered": "<p>Playwright Test content</p>",
+        "protected": false
+    },
+    "excerpt": {
+        "rendered": "<p>Streamline. First-order optimal strategies big data golden goose, and digitalize are we in agreeance, but it&#8217;s not hard guys let&#8217;s circle back to that. The closest elephant is the most dangerous identify pain points, so make it look like digital. Ensure to follow requirements when developing solutions digitalize.<\/p>\n",
+        "protected": false
+    },
+    "author": 2,
+    "featured_media": 29,
+    "comment_status": "open",
+    "ping_status": "open",
+    "sticky": false,
+    "template": "",
+    "format": "standard",
+    "meta": {
+        "footnotes": ""
+    },
+    "categories": [
+        1
+    ],
+    "tags": [],
+    "_links": {
+        "self": [
+            {
+                "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts\/30"
+            }
+        ],
+        "collection": [
+            {
+                "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts"
+            }
+        ],
+        "about": [
+            {
+                "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/types\/post"
+            }
+        ],
+        "author": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/users\/2"
+            }
+        ],
+        "replies": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/comments?post=30"
+            }
+        ],
+        "version-history": [
+            {
+                "count": 1,
+                "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts\/30\/revisions"
+            }
+        ],
+        "predecessor-version": [
+            {
+                "id": 31,
+                "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/posts\/30\/revisions\/31"
+            }
+        ],
+        "wp:featuredmedia": [
+            {
+                "embeddable": true,
+                "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/media\/29"
+            }
+        ],
+        "wp:attachment": [
+            {
+                "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/media?parent=30"
+            }
+        ],
+        "wp:term": [
+            {
+                "taxonomy": "category",
+                "embeddable": true,
+                "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/categories?post=30"
+            },
+            {
+                "taxonomy": "post_tag",
+                "embeddable": true,
+                "href": "https:\/\/10upblog.instawp.xyz\/wp-json\/wp\/v2\/tags?post=30"
+            }
+        ],
+        "curies": [
+            {
+                "name": "wp",
+                "href": "https:\/\/api.w.org\/{rel}",
+                "templated": true
+            }
+        ]
+    }
+}
