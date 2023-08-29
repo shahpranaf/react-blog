@@ -32,16 +32,9 @@ const authSlice = createSlice({
     extraReducers(builder) {
         builder.addMatcher(authApi.endpoints.fetchCurrentUser.matchFulfilled,
             (state, action) => {
-                console.log(action.payload)
                 state.user = action.payload
             }
         )
-            // builder.addMatcher(authApi.endpoints.fetchCurrentUser.matchRejected,
-            //     (state, action) => {
-            //         state.user = null;
-            //         state.token = null;
-            //     }
-            // )
             .addMatcher(authApi.endpoints.logoutUser.matchFulfilled,
                 (state, action) => {
                     localStorage.removeItem('token');

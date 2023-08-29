@@ -10,7 +10,7 @@ import { URL_SEGMENT } from "../../utils/constant";
 
 import "./topbar.css";
 
-function Topbar({ userToken }) {
+export default function Topbar({ userToken }) {
   let { data: currentUser, isLoading, isError, refetch } = useFetchCurrentUserQuery();
   const [logoutUser] = useLogoutUserMutation();
 
@@ -109,5 +109,3 @@ function Topbar({ userToken }) {
     </div>
   );
 }
-
-export default Topbar;
