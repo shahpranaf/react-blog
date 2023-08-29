@@ -43,7 +43,7 @@ module.exports = defineConfig({
       name: 'e2e',
       use: {
         ...devices['Desktop Chrome'],
-        baseURL: process.env.REACT_APP_BASE_URL,
+        baseURL: process.env.REACT_APP_WEB_URL,
         viewport: {
           height: 800,
           width: 1500
