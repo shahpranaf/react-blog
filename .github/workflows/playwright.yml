@@ -12,6 +12,7 @@ env:
   REACT_APP_USER_NAME: ${{ vars.REACT_APP_USER_NAME }}
 jobs:
   test:
+    environment: env
     timeout-minutes: 60
     runs-on: ubuntu-latest
     steps:
