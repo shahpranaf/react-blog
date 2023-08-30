@@ -32,7 +32,6 @@ export default function Login() {
 
         try {
             const userData = await login({ user, pwd }).unwrap();
-            console.log(userData)
             if (userData?.token) {
                 await dispatch(setToken(userData?.token))
                 setUser('')
