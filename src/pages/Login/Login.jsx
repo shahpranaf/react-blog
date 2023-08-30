@@ -32,8 +32,9 @@ export default function Login() {
 
         try {
             const userData = await login({ user, pwd }).unwrap();
-            if (userData?.success) {
-                await dispatch(setToken(userData?.data?.jwt))
+            console.log(userData)
+            if (userData?.token) {
+                await dispatch(setToken(userData?.token))
                 setUser('')
                 setPwd('')
                 setTimeout(() => {
@@ -42,8 +43,8 @@ export default function Login() {
                 toast.success("Logged in successfully");
             }
         } catch (err) {
-            if (err?.data?.data?.message) {
-                setErrMsg(err?.data?.data?.message);
+            if (err?.message) {
+                setErrMsg(err?.message);
             } else {
                 setErrMsg('Login Failed');
             }

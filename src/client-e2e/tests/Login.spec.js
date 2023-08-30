@@ -15,27 +15,23 @@ test.beforeEach(async ({ page }, config) => {
     /* Mock the Categories API */
     loadMockedCategories(page);
 
+    /* Added this repeated code because github do not support refresh of REACT APP */
     await page.goto(baseURL);
+    const loginMenu = page.getByRole('link', { name: /login/i});
+    await expect(loginMenu).toBeVisible();
+    await loginMenu.click();
     
 });
 
 test.describe('Verify Login Page', () => {
     test('Login page to be visible', async ({ page }) => {
-        const loginMenu = page.getByRole('link', { name: /login/i});
-        
-        await expect(loginMenu).toBeVisible();
-        await loginMenu.click();
         await expect(page).toHaveURL(`${baseURL}/${URL_SEGMENT.LOGIN}`); 
         await expect(
             page.getByLabel(/username/i )
           ).toBeVisible();       
     })
-})
-
-test.describe('Verify Login Page', () => {
 
     test('Should successfully log in', async ({ page }) => {
-        await page.goto(`${baseURL}/${URL_SEGMENT.LOGIN}`)
         await expect(page).toHaveURL(`${baseURL}/${URL_SEGMENT.LOGIN}`); 
        
         await page.getByLabel(/username/i ).click();
@@ -52,7 +48,7 @@ test.describe('Verify Login Page', () => {
     })
 
     test('Should fail login on wrong credentials', async ({ page }) => {
-        await page.goto(`${baseURL}/${URL_SEGMENT.LOGIN}`)
+        // await page.goto(`${baseURL}/${URL_SEGMENT.LOGIN}`)
         await expect(page).toHaveURL(`${baseURL}/${URL_SEGMENT.LOGIN}`); 
        
         await page.getByLabel(/username/i ).click();

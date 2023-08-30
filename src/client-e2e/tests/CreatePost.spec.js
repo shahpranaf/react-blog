@@ -26,8 +26,17 @@ test.describe('Should be able to create post', () => {
 
     test('Should be able to create after login', async ({ page }) => {
         /* Login first to write */
-        await page.goto(`${baseURL}/${URL_SEGMENT.LOGIN}`)
+        // await page.goto(`${baseURL}/${URL_SEGMENT.LOGIN}`)
+
+        /* Added this repeated code because github do not support refresh of REACT APP */
+        await page.goto(baseURL);
+        const loginMenu = page.getByRole('link', { name: /login/i});
+        await expect(loginMenu).toBeVisible();
+        await loginMenu.click();
+        /* End: Added this repeated code because github do not support refresh of REACT APP */
         
+        await expect(page).toHaveURL(`${baseURL}/${URL_SEGMENT.LOGIN}`); 
+
         await page.getByLabel(/username/i ).click();
         await page.getByLabel(/username/i ).fill(USERNAME); 
         

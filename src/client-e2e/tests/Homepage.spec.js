@@ -18,7 +18,7 @@ test.beforeEach(async ({ page }, config) => {
 
 test.describe('HomePage', () => {
     test('should render the blog page', async ({ page }) => {
-        await expect(page).toHaveURL(baseURL);  
+        await expect(page).toHaveURL(baseURL+"/");  
     });
 
     test('Should have all the menus', async ({ page }) => {

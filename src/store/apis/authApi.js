@@ -20,10 +20,10 @@ export const authApi = createApi({
         login: builder.mutation({
             query: (data) => {
                 return {
-                    url: 'login',
+                    url: '/wp-json/jwt-auth/v1/token',
                     method: 'POST',
                     params: {
-                        rest_route: "/jwt/v1/auth",
+                        // rest_route: "/wp-json/jwt-auth/v1/token",
                         username: data?.user,
                         password: data?.pwd
                     }
