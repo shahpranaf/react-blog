@@ -9,6 +9,21 @@ React and WordPress are a powerful combination for creating a blog. React is a J
 **Performance**: React is a performant library that can be used to create fast and responsive applications. This is important for a blog, as users want to be able to read your posts without having to wait for them to load.
 **Security**: WordPress is a secure CMS that is regularly updated with security patches. This helps to protect your blog from hackers and other malicious attacks.
 
+## Setup Steps
+1. Clone the project or extract the zip file.
+2. Open Terminal
+3. RUN `npm install` It will install all the dependencies
+4. Open the .env file and update `REACT_APP_BASE_URL` with your WordPress URL
+5. RUN `npm start`
+6. Open `http://localhost:3000`
+7. It will load the Blog posts from your WordPress
+
+## Steps to run TEST
+1. Open the .env file and update `REACT_APP_USER_NAME` and `REACT_APP_PASSWORD` with your WordPress Test Credentials.
+2. Update `REACT_APP_WEB_URL` with `http://localhost:3000` if running in local.
+3. RUN `npm test` to run Playwright tests in headless mode
+4. RUN `npm test --headed` to run Playwright tests in Browser
+
 ## Available Scripts
 
 In the project directory, you can run:

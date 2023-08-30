@@ -36,10 +36,10 @@ export default function Write() {
             try {
                 const response = await createMedia(formData);
                 setImageUploading(false);
-                if (response.data) {
+                if (response.source_url) {
                     setFile({
-                        url: response?.data?.source_url,
-                        id: response?.data?.id
+                        url: response?.source_url,
+                        id: response?.id
                     })
                 }
             } catch {
@@ -59,7 +59,7 @@ export default function Write() {
         }
         if (title.trim() !== "") {
             const response = await createPost(newPost);
-            if (response?.data?.id) {
+            if (response?.id) {
                 toast.success("Post created successfully");
             } else {
                 toast.error("Error creating post");
