@@ -45,11 +45,11 @@ export const postsApi = createApi({
                     }
                 },
                 invalidatesTags: (result, error) => {
-                    const tags = result?.map(post => ({
+                    const tag = [{
                         type: 'Post',
                         id: result.author.id
-                    }))
-                    return tags || [];
+                    }]
+                    return tag || [];
                 },
             }),
             createMedia: builder.mutation({

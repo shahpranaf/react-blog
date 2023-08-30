@@ -4,6 +4,7 @@ import Loader from 'react-fullpage-custom-loader';
 
 import { useCreateMediaMutation, useCreatePostMutation } from "../../store/apis/postsApi";
 import "./write.css";
+import { useNavigate } from "react-router-dom";
 
 export default function Write() {
     const [title, setTitle] = useState("");
@@ -16,6 +17,7 @@ export default function Write() {
 
     const [createMedia] = useCreateMediaMutation();
     const [createPost] = useCreatePostMutation();
+    const navigate = useNavigate();
 
     const handleTitleChange = (e) => {
         const newTitle = e.target.value;
@@ -36,10 +38,10 @@ export default function Write() {
             try {
                 const response = await createMedia(formData);
                 setImageUploading(false);
-                if (response.source_url) {
+                if (response?.data) {
                     setFile({
-                        url: response?.source_url,
-                        id: response?.id
+                        url: response?.data?.source_url,
+                        id: response?.data?.id
                     })
                 }
             } catch {
@@ -59,8 +61,9 @@ export default function Write() {
         }
         if (title.trim() !== "") {
             const response = await createPost(newPost);
-            if (response?.id) {
+            if (response?.data?.id) {
                 toast.success("Post created successfully");
+                navigate('/')
             } else {
                 toast.error("Error creating post");
             }
