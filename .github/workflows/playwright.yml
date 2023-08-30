@@ -8,8 +8,8 @@ env:
   REACT_APP_BASE_URL: ${{ vars.REACT_APP_BASE_URL }}
   REACT_APP_WEB_URL: ${{ vars.REACT_APP_WEB_URL }}
   REACT_APP_WP: ${{ vars.REACT_APP_WP }}
-  REACT_APP_PASSWORD: ${{ secret.REACT_APP_PASSWORD }}
-  REACT_APP_USER_NAME: ${{ secret.REACT_APP_USER_NAME }}
+  REACT_APP_PASSWORD: ${{ secrets.REACT_APP_PASSWORD }}
+  REACT_APP_USER_NAME: ${{ secrets.REACT_APP_USER_NAME }}
 jobs:
   test:
     environment: env
